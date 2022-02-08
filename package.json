@@ -1,0 +1,11 @@
+{
+  "name": "expressjs-restful-api-example",
+  "version": "1.0.0",
+  "description": "It's just a simple RESTful API implementation, helping starters to get familiar with different HTTP requests that come to the server and respond to them with a proper response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "13ThirtySeven",
+  "license": "ISC"
+}
