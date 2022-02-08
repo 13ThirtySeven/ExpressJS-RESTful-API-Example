@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 
 
-const port = process.env.port || 3000;
-
 
 // Hard coded Flights Object just for the
 //purpose of demonstration 
@@ -20,14 +18,14 @@ const flights = [
    ];
 
 
+// route to get all flights, Endpoint is => localhost:3000/flights
+app.get('/flights', (req,res) => {
+
+       res.send(flights);
+    
+   });
 
 
-console.log(flights);
-
-
-
-
-
-
+const port = process.env.port || 3000;
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
